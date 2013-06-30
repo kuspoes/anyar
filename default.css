@@ -1,0 +1,69 @@
+body {  font-size: 14px;
+        line-height: 14px;
+        color: #121212;
+        margin: 0; 
+    }
+
+        a {
+    		color: #0084b4;
+    		text-decoration:none;
+    		font-weight: 500;
+			}
+
+			span.label {
+				color: #606060;
+				padding-left: 10px;
+				margin-right: 10px;
+			}
+
+div.status { padding: 8px;
+             border-bottom: 1px solid #ccc;
+              }
+
+div.child .status { margin-top: 8px;
+                    border: 1px solid #ccc; 
+                    font-size: 90%;
+                }
+
+div.icon { float: left; 
+		   width: 45px; 
+		   }
+
+div.user a.username { 
+            font-weight: 600;
+            color: #000000;
+            text-transform: capitalize;
+       }
+
+div.text { 
+		margin-left: 45px; 
+		position: relative;
+		 }
+
+div.icon img { 
+			border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    -webkit-border-radius: 50%; 
+		}
+
+.datetime, .datetime a, .retweet a { 
+				font-size: 90%; 
+			}
+
+.screenname, .screenname a { 
+				color: #BF194F;
+                font-size: 90%; 
+            }
+
+div.body { 
+		padding: 2px 0px;
+	}
+
+div.twitter .hashtags, div.twitter .hashtags a { 
+										color : #cc2233;
+									}
+
+div.twitter .long-command, div.twitter .long-command a  { 
+															color: #606060; 
+                                                      	    white-space: nowrap;
+                                                      	     }
